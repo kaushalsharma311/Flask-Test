@@ -14,7 +14,7 @@ def hello_world():
         </script>
     </head>
     <body>
-          <iframe src="https://app.powerbi.com/view?r=eyJrIjoiODM2YTE1ZGYtZmMzYS00YWMyLWFkNjYtNTliOTNkYjhkODRjIiwidCI6ImRhNjdlZjFiLWNhNTktNGRiMi05YThjLWFhOGQ5NDYxN2ExNiIsImMiOjR9" frameborder="0" allowFullScreen="true" onload="resizeIframe(this)"></iframe>        
+          <iframe scrolling="no" src="https://app.powerbi.com/view?r=eyJrIjoiODM2YTE1ZGYtZmMzYS00YWMyLWFkNjYtNTliOTNkYjhkODRjIiwidCI6ImRhNjdlZjFiLWNhNTktNGRiMi05YThjLWFhOGQ5NDYxN2ExNiIsImMiOjR9" frameborder="0" allowFullScreen="true" onload="resizeIframe(this)"></iframe>        
         <form method="POST">
             <input class="btn" type="submit" value="submit">
         </form>
