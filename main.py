@@ -7,9 +7,14 @@ def hello_world():
 <html>
     <head>
         <title>Dashboard</title>
+        <script>
+                function resizeIframe(obj) {
+                                              obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+                }
+        </script>
     </head>
     <body>
-          <iframe src="https://app.powerbi.com/view?r=eyJrIjoiODM2YTE1ZGYtZmMzYS00YWMyLWFkNjYtNTliOTNkYjhkODRjIiwidCI6ImRhNjdlZjFiLWNhNTktNGRiMi05YThjLWFhOGQ5NDYxN2ExNiIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>        
+          <iframe src="https://app.powerbi.com/view?r=eyJrIjoiODM2YTE1ZGYtZmMzYS00YWMyLWFkNjYtNTliOTNkYjhkODRjIiwidCI6ImRhNjdlZjFiLWNhNTktNGRiMi05YThjLWFhOGQ5NDYxN2ExNiIsImMiOjR9" frameborder="0" allowFullScreen="true" onload="resizeIframe(this)"></iframe>        
         <form method="POST">
             <input class="btn" type="submit" value="submit">
         </form>
