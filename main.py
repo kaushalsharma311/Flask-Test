@@ -1,5 +1,4 @@
 from flask import Flask
-import pdfkit
 app = Flask(__name__)
 
 @app.route('/')
